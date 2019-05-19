@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: article
 title: 自己博客小站的建立过程
 date: 2019-5-18
 categories: blog
 tags: [随笔,技术,搭站]
-description: 小站出生。
+lang: zh
+key: May02
+comment: true
 ---
 
 &emsp;&emsp;我的小站的建立主要参考的是这篇[博文](https://www.zhihu.com/question/20463581/answer/25478916)，使用的GitHub Pages，域名是从阿里云购买的，学生党资金有限。。。没钱购买com站点，只能用site站点咯。购买的时候，发现一个有趣的事情，这个域名购买5年的钱比购买3年的钱还便宜。。。购买的时候上面显示有优惠券可以用，自己可以搜索一下方法，关注一个阿里云域名相关的公众号就可以了。但是不知道是不是我使用方法有问题，显示优惠冲突，大致是因为第一次购买用户然后享受了优惠了吧，你们可以试一下能不能使用。
