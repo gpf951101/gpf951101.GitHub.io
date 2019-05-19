@@ -7,6 +7,7 @@ tags: [搭站,Blog]
 lang: zh
 key: May03
 comment: true
+pageview: true
 show_edit_on_github: false
 ---
 
