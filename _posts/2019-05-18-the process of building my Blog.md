@@ -2,8 +2,9 @@
 layout: article
 title: 自己博客小站的建立过程
 date: 2019-5-18
+modify_date: 2019-5-19
 categories: blog
-tags: [随笔,技术,搭站]
+tags: [随笔,技术,Blog]
 lang: zh
 key: May02
 comment: true
