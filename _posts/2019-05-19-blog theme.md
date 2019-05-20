@@ -6,8 +6,9 @@ categories: blog
 tags: [搭站,Blog]
 lang: zh
 key: May03
+sharing: true
 comment: true
-pageview: true
+pageview: true  
 show_edit_on_github: false
 ---
 

@@ -3,10 +3,10 @@ layout: article
 title: 我有自己的博客小站啦
 sharing: true
 show_author_profile: true
-pageview: true
 lang: zh
 key: May01
 comment: true
+pageview: true
 date: 2019-5-18
 tags: [随笔,日常]
 ---

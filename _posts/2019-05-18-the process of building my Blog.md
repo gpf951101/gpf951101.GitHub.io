@@ -3,12 +3,13 @@ layout: article
 title: 自己博客小站的建立过程
 date: 2019-5-18
 modify_date: 2019-5-19
+sharing: true
 categories: blog
-pageview: true
 tags: [随笔,技术,Blog]
 lang: zh
 key: May02
 comment: true
+pageview: true
 show_edit_on_github: false
 ---
 
