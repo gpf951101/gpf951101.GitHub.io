@@ -23,17 +23,17 @@ show_edit_on_github: false
  - 185.199.111.153
 
 当然，如果变更了，可以从[官方](https://help.github.com/en/articles/setting-up-an-apex-domain#configuring-a-records-with-your-dns-provider)进行查找。我再进行替换的时候没有删除原先的两条记录，直接进行了暂停，添加新的记录之后，效果如下：
-![修改记录之后的解析DNS](images/20190521151238.png)
+![修改记录之后的解析DNS](/images/20190521151238.png)
 
 ### 2.修改hithub.io属性
 &emsp;&emsp;去github找到你的github.io文件，然后进入设置选项卡，在`Options`->`GitHub Pages`下有个`Enforce HTTPS`，然后勾选就可以(也可以进入设置页面直接搜索`Enforce HTTPS`)。
-![Enforce HTTPS](images/20190521151843.png)
+![Enforce HTTPS](/images/20190521151843.png)
 
 ### 3.静静等待设置生效就可以啦
 &emsp;&emsp;最后配置生效之后，在域名DNS解析处会增加一条解析，
-![DNS增加解析](images/20190521152151.png)
+![DNS增加解析](/images/20190521152151.png)
 然后发现github.io处的设置也会发生变化，会有绿色的对勾提示。
-![变化](images/20190521152337.png)。
+![变化](/images/20190521152337.png)。
 查看自己的域名访问：
-![域名访问](images/20190521152444.png)
+![域名访问](/images/20190521152444.png)
 结束。
