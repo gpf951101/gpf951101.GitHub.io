@@ -2,6 +2,7 @@
 layout: article
 title: github pages 搭建博客并且进行https认证
 date: 2019-5-21
+modify_date: 2019-5-22
 categories: blog
 tags: [技术,搭站,Blog]
 lang: zh
@@ -30,10 +31,14 @@ show_edit_on_github: false
 ![Enforce HTTPS](/images/20190521151843.png)
 
 ### 3.静静等待设置生效就可以啦
-&emsp;&emsp;最后配置生效之后，在域名DNS解析处会增加一条解析，
-![DNS增加解析](/images/20190521152151.png)
-然后发现github.io处的设置也会发生变化，会有绿色的对勾提示。
-![变化](/images/20190521152337.png)。
-查看自己的域名访问：
-![域名访问](/images/20190521152444.png)
+&emsp;&emsp;最后配置生效之后，在域名DNS解析处会增加一条解析，<br>
+![DNS增加解析](/images/20190521152151.png)<br>
+然后发现github.io处的设置也会发生变化，会有绿色的对勾提示。<br>
+![变化](/images/20190521152337.png)。<br>
+查看自己的域名访问：<br>
+![域名访问](/images/20190521152444.png)<br>
 结束。
+
+### 附加更新
+&emsp;&emsp;提交部署之后，发现阅读量看不到了，开始没在意，毕竟之前也遇到过。后来发现评论也看不到，且提示`Code 403: 访问被api域名白名单拒绝，请检查你的安全域名设置.`。想起来在使用LeanCloud模块的时候，设置的`Web安全域名`中的协议是http协议，然后更改成https协议之后，导致无法访问，所以只要把此处的安全域名修改一下就可以重新看到评论和浏览量。<br>
+![Web安全域名](/images/20190521162104.png)
