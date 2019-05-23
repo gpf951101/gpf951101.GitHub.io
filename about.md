@@ -1,4 +1,4 @@
-layout: article
+layout: page
 title: About
 description: 生命不息 代码不止
 comment: false
