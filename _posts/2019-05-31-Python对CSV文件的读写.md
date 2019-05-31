@@ -99,3 +99,5 @@ with open('stocks.csv','w') as f:
 ![图五](/images/20190531171252.png)
 <br>
 参考链接：[地址](https://python3-cookbook.readthedocs.io/zh_CN/latest/c06/p01_read_write_csv_data.html#id1)
+<br>
+可以使用`open(birth_weight_file,'w',newline='')`解决中间有空行的问题。
