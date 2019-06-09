@@ -11,6 +11,7 @@ comment: true
 pageview: true
 ---
 ### 1.Python读取csv文件
+<!--more-->
 如CSV文件名为`stock.csv`：<br>
 ```javascript
 Symbol,Price,Date,Time,Change,Volume

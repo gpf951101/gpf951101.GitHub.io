@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Ubuntu开通SSH服务
+title: Ubuntu虚拟机安装VMTools
 key: May20190609_2
 date: 2019-6-9
 tags: [Ubuntu, SSH]
