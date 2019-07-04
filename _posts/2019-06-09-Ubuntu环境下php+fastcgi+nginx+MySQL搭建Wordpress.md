@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Ubuntu环境下php+fastcgi+nginx+MySQL搭建Wordpress环境.md
+title: Ubuntu环境下php+fastcgi+nginx+MySQL搭建Wordpress环境
 key: May20190609_3
 date: 2019-6-9
 tags: [Ubuntu, wordpress, nginx, php, MySQL]
@@ -14,7 +14,7 @@ pageview: true
 - `sudo apt-get update`
 - `sudo apt-get install nginx`
 打开本地IP，出现如下画面：<br>
-[nginx访问成功](/images/20190609181113.png)<br>
+![nginx访问成功](/images/20190609181113.png)<br>
 <!--more-->
 ## 2.安装MySQL 
 `sudo apt-get install mysql-server`<br>
