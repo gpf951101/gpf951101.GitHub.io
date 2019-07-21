@@ -13,7 +13,7 @@ pageview: true
 ## 文件传输
 
 使用scp命令在windows CMD中进行操作:<br>
-`scp /path/filename username@servername:/path/`<br>
+`scp /path/filename username@servername:/path/`<br><!--more-->
 前者是windows下的路径，后者是Linux服务器的路径，如果下载，则互换位置即可，其他两台服务器之间传输文件的命令也是scp。<br>
 
 ## nltk_data离线下载
