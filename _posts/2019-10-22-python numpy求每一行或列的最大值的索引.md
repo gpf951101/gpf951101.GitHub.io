@@ -1,6 +1,6 @@
 ---
 layout: article
-title: python list中找出前n大或小的索引.md
+title: python numpy求每一行或列的最大值的索引
 key: May20191022-2
 date: 2019-10-22
 tags: [python, numpy]
