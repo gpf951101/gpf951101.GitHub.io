@@ -10,7 +10,7 @@ lang: zh
 comment: true
 pageview: true
 ---
-
+<!--more-->
 ```python
 import heapq
 

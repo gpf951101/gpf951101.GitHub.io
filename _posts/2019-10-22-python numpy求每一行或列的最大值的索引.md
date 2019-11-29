@@ -26,4 +26,3 @@ print(a)
 print(a.argmax(axis=1))
 [3 1 0 2]
 ```
-
