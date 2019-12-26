@@ -24,7 +24,4 @@ min_num_index_list = map(nums.index, heapq.nsmallest(3, nums))
 
 print(list(max_num_index_list))
 print(list(min_num_index_list))
-————————————————
-版权声明：本文为CSDN博主「Immok」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/ns2250225/article/details/80118621
 ```
