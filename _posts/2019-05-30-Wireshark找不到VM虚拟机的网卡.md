@@ -20,4 +20,3 @@ pageview: true
 #### 4.执行 `sc start npf`开启npf。
 ![开启npf](/images/20190530155211.png)
 #### 5.重新打开Wireshark或者刷新网卡`F5`。
-
