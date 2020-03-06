@@ -14,8 +14,8 @@ pageview: true
 - `sudo apt-get update`
 - `sudo apt-get install nginx`
 打开本地IP，出现如下画面：<br>
-[nginx访问成功](/images/20190609181113.png)<br>
-
+![nginx访问成功](/images/20190609181113.png)<br>
+<!--more-->
 ## 2.安装MySQL 
 `sudo apt-get install mysql-server`<br>
 然后安装过程中会让设置`root`用户的密码，设置之后确认。<br>
