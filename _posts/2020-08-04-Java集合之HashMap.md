@@ -667,3 +667,14 @@ final Node<K,V> getNode(int hash, Object key) {
 HashMap初始化尽量指定大小，为：需要存储的元素个数/负载因子
 
 负载因子尽量使用0.75.
+
+HashMap中部分成员变量使用`transient`修饰的原因：
+
+1. transient 是表明该数据不参与序列化。因为 HashMap 中的存储数据的数组数据成员中，数组还有很多的空间没有被使用，没有被使用到的空间被序列化没有意义。所以需要手动使用 writeObject() 方法，只序列化实际存储元素的数组。
+2.  由于不同的虚拟机对于相同 hashCode 产生的 Code 值可能是不一样的，如果你使用默认的序列化，那么反序列化后，元素的位置和之前的是保持一致的，可是由于 hashCode 的值不一样了，那么定位函数 indexOf（）返回的元素下标就会不同，这样不是我们所想要的结果.
+
+
+
+# 参考资料
+
+[视频](https://www.bilibili.com/video/BV1nJ411J7AA)
